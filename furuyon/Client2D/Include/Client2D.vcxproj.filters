@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. SceneMode">
+      <UniqueIdentifier>{3e326f72-c98d-4f39-8cf3-5eab50bac787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object">
+      <UniqueIdentifier>{c835ba0d-1a8c-45eb-a9a6-a9a005fdd931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Animation2D">
+      <UniqueIdentifier>{1ee23451-f2b4-430f-84af-20e361d56997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Animation2D\01. Player">
+      <UniqueIdentifier>{0a720324-7874-4a10-a67a-83caecfb6b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. UI">
+      <UniqueIdentifier>{44f68ea1-cd6d-4893-9b6b-58a3d86a702d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\Card">
+      <UniqueIdentifier>{98a46e6f-8218-4434-be82-1d4761888763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\deck">
+      <UniqueIdentifier>{2573a99b-db18-4f1d-927d-67ba546de659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\sample">
+      <UniqueIdentifier>{b6c37d93-5c33-4d6e-88f6-fe79e7fd23fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\sceneplayer">
+      <UniqueIdentifier>{7147c878-4d8b-4b21-848a-948fb2772585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\effect">
+      <UniqueIdentifier>{194e0cc4-c483-4f44-8621-320d7da9a9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. UI\sample">
+      <UniqueIdentifier>{9a945e9f-d31b-4960-8e77-dda3adaa7145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. UI\GameMapHUD">
+      <UniqueIdentifier>{9685c1ab-4024-4a29-8a54-11ab76511e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\sceneplayer\UIObject">
+      <UniqueIdentifier>{1c5bbe42-3e63-44b5-83af-87177ea7fbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\stage">
+      <UniqueIdentifier>{6aac6660-d2e2-4d9b-b1b7-e0dbdbc31e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\MapObject">
+      <UniqueIdentifier>{4dcb53cf-1d0a-4bcd-acb3-578380e63646}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\MainScene.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\PlayerAnimation2D.cpp">
+      <Filter>03. Animation2D\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MainHUDWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\StartScene.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StartHUDWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\LoadingThread.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\LoadingScene.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SelectHUDWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\GameMap.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AttackCard.cpp">
+      <Filter>02. Object\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Card.cpp">
+      <Filter>02. Object\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Deck.cpp">
+      <Filter>02. Object\deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MagicDeck.cpp">
+      <Filter>02. Object\deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MainMap.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle2D.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\PixelCollisionTest.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player2D.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Teemo.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TextObject.cpp">
+      <Filter>02. Object\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\WariorDeck.cpp">
+      <Filter>02. Object\deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GameMapObj.cpp">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SelectCard.cpp">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SpellCard.cpp">
+      <Filter>02. Object\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BuildingCard.cpp">
+      <Filter>02. Object\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StartMapObj.cpp">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\flower.cpp">
+      <Filter>02. Object\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TestParticle.cpp">
+      <Filter>02. Object\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoadingUI.cpp">
+      <Filter>04. UI\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PlayerWorldInfoWidget.cpp">
+      <Filter>04. UI\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\BuildingHUDWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FocusHUDWidget.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GaeSiPhaseHUDWidget.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameMapWindow.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MulrigunHUDWidget.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Hero2HUDUI.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HeroHUDUI.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PhaseHUDWidget.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AnimationCard.cpp">
+      <Filter>02. Object\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Ai\Player2Ai.cpp">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CardUseHUDWidget.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PlayerLogHUDWidget.cpp">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\LogObj.cpp">
+      <Filter>02. Object\sceneplayer\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\tokoyoDeck.cpp">
+      <Filter>02. Object\deck</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GodSelectHUDWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\GodSelectScene.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GodSelectObj.cpp">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\AlRamWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameMapAnimation.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\StageScene.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StageObj.cpp">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StageHUDWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StageButton.cpp">
+      <Filter>02. Object\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FlameEffect.cpp">
+      <Filter>02. Object\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\RangeObj.cpp">
+      <Filter>02. Object\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\BackHUDWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMode\TutorialScene.cpp">
+      <Filter>01. SceneMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TutorialObj.cpp">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TutorialWidget.cpp">
+      <Filter>04. UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\MainScene.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\PlayerAnimation2D.h">
+      <Filter>03. Animation2D\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MainHUDWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\StartScene.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StartHUDWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\LoadingThread.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\LoadingScene.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SelectHUDWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\GameMap.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AttackCard.h">
+      <Filter>02. Object\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Card.h">
+      <Filter>02. Object\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Deck.h">
+      <Filter>02. Object\deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MagicDeck.h">
+      <Filter>02. Object\deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MainMap.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle2D.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\PixelCollisionTest.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player2D.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TextObject.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Teemo.h">
+      <Filter>02. Object\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\WariorDeck.h">
+      <Filter>02. Object\deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\GameMapObj.h">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SelectCard.h">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SpellCard.h">
+      <Filter>02. Object\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BuildingCard.h">
+      <Filter>02. Object\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StartMapObj.h">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\flower.h">
+      <Filter>02. Object\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TestParticle.h">
+      <Filter>02. Object\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\LoadingUI.h">
+      <Filter>04. UI\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerWorldInfoWidget.h">
+      <Filter>04. UI\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BuildingHUDWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FocusHUDWidget.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GaeSiPhaseHUDWidget.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameMapWindow.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MulrigunHUDWidget.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Hero2HUDUI.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HeroHUDUI.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PhaseHUDWidget.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AnimationCard.h">
+      <Filter>02. Object\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Ai\Player2Ai.h">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CardUseHUDWidget.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerLogHUDWidget.h">
+      <Filter>04. UI\GameMapHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\LogObj.h">
+      <Filter>02. Object\sceneplayer\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\tokoyoDeck.h">
+      <Filter>02. Object\deck</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GodSelectHUDWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\GodSelectScene.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\GodSelectObj.h">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AlRamWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameMapAnimation.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\StageScene.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StageObj.h">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StageHUDWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StageButton.h">
+      <Filter>02. Object\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FlameEffect.h">
+      <Filter>02. Object\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\RangeObj.h">
+      <Filter>02. Object\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BackHUDWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMode\TutorialScene.h">
+      <Filter>01. SceneMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TutorialObj.h">
+      <Filter>02. Object\sceneplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TutorialWidget.h">
+      <Filter>04. UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="icon3.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
